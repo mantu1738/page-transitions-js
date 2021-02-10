@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: rgba(85, 29, 3, 0.884);
+    font-size: 18px;
+}
+
+.home,.about{
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+.home-content,.about-content{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img{
+        height: 70%;
+    }
+    h1{
+        font-size: 50px;
+        margin: 30px 0;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.home{
+    background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+
+.about{
+    background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
